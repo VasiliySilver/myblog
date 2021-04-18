@@ -12,6 +12,7 @@
 1. [Set Django project](readmefiles/set-django.md)
 2. [Controller for main page](readmefiles/controller.md)
 3. [Transition template to the project](readmefiles/transition.md)
+4. [Project models](readmefiles/models.md)
 
 
 ### Helpers

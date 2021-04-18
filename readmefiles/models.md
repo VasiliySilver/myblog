@@ -1,3 +1,9 @@
+## Project Models
+
+---
+1. blog/models.py
+
+```python
 """
     Category
     ========
@@ -52,3 +58,10 @@ class Post(models.Model):
 
     class Meta:
         ordering = ['-created_at']
+```
+
+2. For photo, we need package Pillow
+`python -m pip install Pillow`
+   
+3. Then `python manage.py makemigrations`
+4. `python manage.py migrate`
