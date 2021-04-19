@@ -48,7 +48,7 @@ STATICFILES_DIRS = [
 <footer class="footer">...</footer>
 ```
 10. block content will be our index.html file
-```python
+```
 {% extends 'base.html' %}
 
 {% load static %}
