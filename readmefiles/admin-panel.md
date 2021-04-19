@@ -188,3 +188,5 @@ CKEDITOR_CONFIGS = {
 }
 ```
 
+19. Create 8 posts
+

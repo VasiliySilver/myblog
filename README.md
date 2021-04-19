@@ -15,7 +15,9 @@
 2. [Controller for main page](readmefiles/controller.md)
 3. [Transition template to the project](readmefiles/transition.md)
 4. [Project models](readmefiles/models.md)
-4. [Admin panel, registering models in admin panel](readmefiles/admin-panel.md)
+5. [Admin panel, registering models in admin panel](readmefiles/admin-panel.md)
+6. [Setting up the panel admin](readmefiles/setting-up-admin-panel.md)
+6. [Tag template menu](readmefiles/setting-up-admin-panel.md)
 
 
 ### Helpers
