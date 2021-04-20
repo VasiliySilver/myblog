@@ -7,7 +7,7 @@
 > Django Blog step by step
 
 
-### Steps
+## Steps
 
 ---
 
@@ -20,9 +20,10 @@
 7. [Tag template menu](readmefiles/setting-up-admin-panel.md)
 8. [Highlighting active path menu item](readmefiles/hightlighting active path.md)
 9. [Displaying articles on the main](readmefiles/displaying_articles_on_main.md)
+9. [Pagination for articles](readmefiles/pagination for articles.md)
 
 
-### Helpers
+### Usefull links
 
 ---
 

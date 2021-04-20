@@ -61,3 +61,6 @@ path('post/<str:slug>/', get_post, name='post')
 </div>
 {% endfor %}
 ```
+6. Usefull links:
+
+- [Встроенные шаблонные теги и фильтры](https://djbook.ru/rel3.0/ref/templates/builtins.html)

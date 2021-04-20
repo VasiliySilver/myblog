@@ -49,8 +49,8 @@
                         <div class="single-post">
 
                             {% if post.photo %}
-                                <img src="{% static 'img/post-image2.jpg'%}" alt="{{ post.title }}">
-                            {% else %}
+                                <img src="{{ post.photo.url }}" alt="{{ post.title }}">
+                            {% elif p > page_obj.number|add:-3 and p < page_obj.number|add:3 %}
                                 <img src="https://i.picsum.photos/id/1000/300/201.jpg?hmac=qWh065Fr_M8Oa3sNsdDL8ngWXv2Jb-EE49ZIn6c0P-g" alt="{{ post.title }}">
                             {% endif %}
 
@@ -66,16 +66,9 @@
                 </div>
             </div>
         </div>
-        <div class="pegination">
-            <div class="nav-links">
-                <span class="page-numbers current">1</span>
-                <a class="page-numbers" href="#">2</a>
-                <a class="page-numbers" href="#">3</a>
-                <a class="page-numbers" href="#">4</a>
-                <a class="page-numbers" href="#">5</a>
-                <a class="page-numbers" href="#"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
-            </div>
-        </div>
+
+        {% include 'inc/pagination.html' %}
+
     </section>
 
 {% endblock %}
