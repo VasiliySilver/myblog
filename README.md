@@ -18,6 +18,7 @@
 5. [Admin panel, registering models in admin panel](readmefiles/admin-panel.md)
 6. [Setting up the panel admin](readmefiles/setting-up-admin-panel.md)
 7. [Tag template menu](readmefiles/setting-up-admin-panel.md)
+8. [Highlighting active path menu item](readmefiles/setting-up-admin-panel.md)
 
 
 ### Helpers

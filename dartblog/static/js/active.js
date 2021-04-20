@@ -1,4 +1,17 @@
 $(document).ready(function () {
+
+    // Для каждого пункта меню с тегом a
+    $('.menu a').each(function () {
+        // находим url страницы на которой находимся
+        let location = window.location.protocol = '//' + window.location.host + window.location.pathname;
+        // находим ссылку
+        let link = this.href;
+        // если локация равна ссылке добавляем класс active
+        if (location == link) {
+            $(this).parent().addClass('active')
+        }
+    })
+
     var filterFns = {
         numberGreaterThan50: function () {
             var number = $(this).find('.number').text();

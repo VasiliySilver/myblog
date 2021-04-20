@@ -57,7 +57,7 @@ def show_menu(menu_class='menu'):
 - **_footer.html**
 ```html
 <div class="col-md-9">
-{% show_menu 'foooter-menu' %}
+{% show_menu 'footer-menu' %}
 <!--{# <ul>#}-->
 <!--{#     <li class="active"><a href="#">Home</a></li>#}-->
 <!--{#     <li><a href="#">lifestyle</a></li>#}-->
