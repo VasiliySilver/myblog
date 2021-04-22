@@ -28,7 +28,7 @@ class PostAdmin(admin.ModelAdmin):
     # по чему поиск
     search_fields = ('title',)
     # фильтрация по категориям
-    list_filter = ('category',)
+    list_filter = ('category', 'tags')
     # поля для чтения
     readonly_fields = ('views', 'created_at', 'get_photo')
     # как выводить инфо

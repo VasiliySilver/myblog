@@ -23,6 +23,7 @@
 10. [Pagination for articles](documentation/pagination for articles.md)
 11. [Posts for categories](documentation/posts for categories.md)
 12. [Show posts for tag](documentation/show posts for tag.md)
+13. [Show posts for tag_2](documentation/show posts for tag 2.md)
 
 
 ### Usefull links
