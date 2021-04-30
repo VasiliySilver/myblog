@@ -118,3 +118,16 @@ GitHub.sublime-settings
 .db.sqlite3
 
 *.djcache
+
+.idea/**
+locale/*/LC_MESSAGES/*.mo
+ansible/*.crt
+ansible/*.key
+ansible/*.retry
+ansible/inventory.*
+bower_components/**
+custom/**
+media/**
+static/**
+.env/
+/frontend/static/agent/node_modules/

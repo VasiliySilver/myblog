@@ -22,7 +22,7 @@ class PostAdmin(admin.ModelAdmin):
     # быстро заполнить посты тестовыми данными по образцу
     # save_as = True
 
-    list_display = ('id', 'title', 'slug', 'category', 'created_at', 'get_photo',)
+    list_display = ('id', 'title', 'slug', 'category', 'created_at', 'get_photo', 'views')
     # лист ссылок
     list_display_links = ('id', 'title',)
     # по чему поиск
