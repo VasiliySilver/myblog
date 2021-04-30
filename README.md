@@ -34,8 +34,8 @@
 12. [Show posts for tag](documentation/show posts for tag.md)
 13. [Show posts for tag_2](documentation/show posts for tag 2.md)
 14. [Show posts for tag_2](documentation/show posts for tag 2.md)
-15. [Show popular posts](get-popular-posts.md)
-16. [Cloud tags](get-tags.md)
+15. [Show popular posts](documentation/get-popular-posts.md)
+16. [Cloud tags](documentation/get-tags.md)
 
 
 ### Usefull links
