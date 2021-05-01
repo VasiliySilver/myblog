@@ -1,10 +1,14 @@
 # Blog application on Django
 
 ---
+> Here you can create your first simple Django Blog project step by step
+
+## Demo [ogo-english.ru](http://www.ogo-english.ru)
+
+---
 
 ![blo_picture](documentation/img/1.png)
 
-> Here you can create your first simple Django Blog project step by step
 
 ## Installation this project
 
